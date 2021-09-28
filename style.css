@@ -9,9 +9,10 @@ body {
   font-size: 15px;
 }
 .devchallenge{
-  padding: 20px 20px ;
-  display: flex;
-  flex-direction: column;
+  
+  margin-top: 2vh;
+  margin-left: 2.4vh;
+
 }
 
 .heading {
@@ -19,19 +20,21 @@ body {
     font-size:1.3rem ;
     font-weight: 700;
 }
-.scarecrow{
-    display:flex;
-    padding:60px 0 50px 0;
-    justify-content: center;
-}
+
 .img-crow{
-    width:300px;
+   
+    margin-top: 8vh;
+    margin-bottom: 4vh;
+    
+    margin-left: 10vw;
+    width: 70vw;
+   
 }
 .message{
 font-weight: bold;
 display: flex;
 flex-direction: column;
-margin-bottom: 60px;
+margin-bottom:10vh;
 }
 .message-title{
     font-size: 3rem;
@@ -39,8 +42,7 @@ margin-bottom: 60px;
     margin-top:20px;
     margin-bottom: 20px;
     word-spacing:0.1rem;
-    /* letter-spacing: 0.1em; */
-    
+  
 }
 .message-description{
     font-size: 1.3rem;
@@ -49,7 +51,6 @@ margin-bottom: 60px;
      margin-bottom: 60px;
      color: #4F4F4F;
 
-    /* word-spacing: 0.5em */
 }
 .home{
     background-color: #333333;
@@ -64,6 +65,59 @@ margin-bottom: 60px;
     color: #BDBDBD;
     font-family: Montserrat;
     text-align: center;
+}
+
+
+@media only screen and (min-width:900px)
+{
+    .devchallenge
+    {
+       margin-top: 3vh;
+       margin-left: 10vh;
+       margin-right: 8vw;
+    }
+    .heading {
+        font-family:Inconsolata;
+        font-size:1.7rem ;
+        font-weight: 700;
+    }
+    .container{
+        display: flex;
+        justify-content: space-around;
+        gap:8vw;
+        margin-top: 18vh;
+    }
+  
+    .img-crow{
+        margin: 0;
+        width: 36vw;
+    }
+
+    .message{
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        margin-bottom:10vh;
+        gap:4vh
+        }
+        .message-title{
+            font-size: 4.2rem;
+            color: #333333;
+            width: 45vw;
+            word-spacing:0.1rem;
+        }
+        .message-description{
+            font-size: 2rem;
+            width: 25vw;
+        
+        }
+     
+
+        .foot{
+            margin-top: 10vh;
+            font-size: 1.2rem;
+            margin-bottom: 2vh;
+        }
 }
 
 
